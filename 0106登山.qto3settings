@@ -1,0 +1,172 @@
+{
+  "CAMERA": "PERSPECTIVE",
+  "DECOR": {
+    "Label": {
+      "Footer": "source from: https://tjukanov.org/ and https://data.gov.tw/\n",
+      "Header": "Mountain climbing navigation at the main north peak of Qilai, Taiwan"
+    },
+    "NorthArrow": {
+      "color": "0x666666",
+      "visible": true
+    }
+  },
+  "LAYERS": [
+    {
+      "geomType": 1,
+      "layerId": "points_a969b378_1e10_4173_98c5_5a188f30fcbe",
+      "name": "points",
+      "properties": {
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": true,
+        "checkBox_Visible": true,
+        "comboBox_Label": 0,
+        "comboBox_ObjectType": "Sphere",
+        "comboBox_altitudeMode": null,
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "777",
+          "type": 6
+        },
+        "radioButton_IntersectingFeatures": true,
+        "radioButton_zValue": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "130.3",
+          "type": 1
+        },
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 2,
+      "layerId": "97_tracks_0353cef9_7104_4ace_9240_6e2dbd537128",
+      "name": "97 tracks",
+      "properties": {
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {},
+        "radioButton_IntersectingFeatures": true,
+        "radioButton_zValue": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "checkBox": false,
+          "type": 9
+        },
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 2,
+      "layerId": "OUTPUT_d658a060_0c30_42e6_96e9_b337b9404990",
+      "name": "Contours",
+      "properties": {
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "checkBox": false,
+          "type": 9
+        },
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "clip_DEM_39120af1_e4ec_45e4_bf6f_b97632a12334",
+      "name": "Clipped (extent)",
+      "properties": {
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": null,
+        "comboBox_TextureSize": 100,
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_SideColor": "0xccbbaa"
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "dem_20m_3a8b1f3a_cf1d_4338_91b9_f63617f9b28c",
+      "name": "dem_20m",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "FLAT",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ]
+}
